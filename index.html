@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- displays site properly based on user's device -->
 
 		<link
 			rel="icon"
@@ -15,6 +14,23 @@
 		<title>Frontend Mentor | Profile card component</title>
 	</head>
 	<body>
-		Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
+		<main class="profile">
+			<header class="profile__header"></header>
+			<section class="profile__middle">
+				<div class="profile__pic__container">
+					<img class="profile__pic" />
+				</div>
+				<div class="profile__details">
+					<h1>Victor Crest <span class="profile__age">26</span></h1>
+					<p class="profile__city">London</p>
+				</div>
+			</section>
+
+			<footer class="stats">
+				<p class="profile__stats-item">80K Followers</p>
+				<p class="profile__stats-item">803K Likes</p>
+				<p class="profile__stats-item">1.4K Photos</p>
+			</footer>
+		</main>
 	</body>
 </html>
