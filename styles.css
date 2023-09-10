@@ -15,8 +15,9 @@ body {
 	height: 100vh;
 	align-items: center;
 	font-family: 'Kumbh Sans', sans-serif;
-	background: url('images/bg-pattern-bottom.svg') bottom -500px right 0 no-repeat,
-		url('images/bg-pattern-top.svg') top -500px left 0 no-repeat;
+	background: url('images/bg-pattern-bottom.svg') bottom -500px right -175px
+			no-repeat,
+		url('images/bg-pattern-top.svg') top -500px left -175px no-repeat;
 	background-color: hsl(185, 75%, 39%);
 }
 
