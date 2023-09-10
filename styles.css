@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;400&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-family: 'Kumbh Sans', sans-serif;
+	background: url(../images/bg-pattern-bottom.svg) bottom -500px right 0 no-repeat,
+		url(../images/bg-pattern-top.svg) top -500px left 0 no-repeat;
+	background-color: hsl(185, 75%, 39%);
+}
+
+.profile {
+	background-color: #fff;
+	border-radius: 8px;
+	height: 40%;
+	width: 17.5%;
+	box-shadow: -5px 0px 37px 1px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 2;
+}
+
+.profile__header {
+	height: 35%;
+	background-image: url('images/bg-pattern-card.svg');
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.profile__middle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.profile__pic-container {
+	position: absolute;
+	top: -50px;
+}
+
+.profile__pic {
+	border-radius: 50%;
+	border: #fff solid 5px;
+}
+
+.profile__details {
+	margin-top: 75px;
+}
+
+.profile__details-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+}
+
+.profile__name {
+	font-size: 18px;
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+.profile__age {
+	color: hsl(0, 0%, 51%);
+	font-weight: 400;
+}
+
+.profile__city {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	color: hsl(0, 0%, 47%);
+	font-weight: 400;
+	font-size: 15px;
+}
+
+hr {
+	border-top: 0;
+	margin-bottom: 32px;
+}
+
+.profile__stats {
+	display: flex;
+	justify-content: space-around;
+}
+
+.profile__stats-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.profile__stats-number {
+	font-size: 18px;
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+.profile__stats-label {
+	color: hsl(0, 0%, 47%);
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
